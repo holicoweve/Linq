@@ -1,0 +1,11 @@
+D:\Personal\Courses\CSharp\Linq\Linq\bin\Debug\netcoreapp2.2\Linq.deps.json
+D:\Personal\Courses\CSharp\Linq\Linq\bin\Debug\netcoreapp2.2\Linq.runtimeconfig.json
+D:\Personal\Courses\CSharp\Linq\Linq\bin\Debug\netcoreapp2.2\Linq.runtimeconfig.dev.json
+D:\Personal\Courses\CSharp\Linq\Linq\bin\Debug\netcoreapp2.2\Linq.dll
+D:\Personal\Courses\CSharp\Linq\Linq\bin\Debug\netcoreapp2.2\Linq.pdb
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.csprojAssemblyReference.cache
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.csproj.CoreCompileInputs.cache
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.AssemblyInfoInputs.cache
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.AssemblyInfo.cs
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.dll
+D:\Personal\Courses\CSharp\Linq\Linq\obj\Debug\netcoreapp2.2\Linq.pdb
