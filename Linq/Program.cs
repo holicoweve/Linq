@@ -32,24 +32,22 @@ namespace Linq
 
 		public int TotalSalaryInDepartment1()
 		{
-			return _employees.Where(x => x.DepartmentId == 1).Sum(x => x.MonthlySalary);
+			throw new NotImplementedException();
 		}
 
 		public double AverageTenureInDepartment1()
 		{
-			return _employees.Where(x => x.DepartmentId == 1).Average(x => x.Tenure);
+			throw new NotImplementedException();
 		}
 
 		public bool CompanyComplyWithMinimumWage(int minimumWage)
 		{
-			return _employees.All(x => x.MonthlySalary >= minimumWage);
+			throw new NotImplementedException();
 		}
 
 		public List<int> DepartmentViolateAgeLaw(int minimumAge)
 		{
-			return _employees.Where(employee => employee.Age < minimumAge).GroupBy(employee => employee.DepartmentId)
-				.Select(group => group.Key).ToList();
-			
+			throw new NotImplementedException();
 		}
 	}
 }
