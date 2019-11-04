@@ -12,11 +12,12 @@ namespace Linq
 		{
 			var sample = new SampleQuery(new EmployeeRepository().GetAllPersons());
 			var minimumWage = 23100;
+			var minimumAge = 16;
 
 			Console.WriteLine($"Department 1 total monthly salary:{sample.TotalSalaryInDepartment1()}");
 			Console.WriteLine($"Average tenure in Department 1: {sample.AverageTenureInDepartment1()}");
 			Console.WriteLine($"Company comply with minimum wage law of $23100:{sample.CompanyComplyWithMinimumWage(minimumWage)}");
-			Console.WriteLine($"Departments that violate the minimum age law of 16: {sample.DepartmentViolateAgeLaw(16).Aggregate(string.Empty,(s,i)=>s+=" "+i)}");
+			Console.WriteLine($"Departments that violate the minimum age law of 16: {sample.DepartmentViolateAgeLaw(minimumAge).Aggregate(string.Empty,(s,i)=>s+=" "+i)}");
 			Console.ReadKey();
 		}
 	}
